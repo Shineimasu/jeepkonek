@@ -1,0 +1,30 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after{
+    box-sizing: inheret;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 3rem;
+}
+
+#map{
+    height: 85vh;
+}
+
+.gm-style-iw-d{
+    color: black;
+}
